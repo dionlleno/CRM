@@ -1,11 +1,11 @@
-public class ClienteRegistro {
-    //Cadastrar Clinte
-    public void cadastrar(Cliente cliente){
+public class ImovelRegistro {
+    //Cadastrar Imovel
+    public void cadastrar(Imovel imovel){
         //Verificar os dados
     }
 
     //Verificar Existencia
-    public boolean clienteExiste(Cliente cliente){
+    public boolean imovelExiste(Imovel imovel){
         boolean existe = false;
         //Pesquisa no banco
         //If banco == true -> existe = true
@@ -14,7 +14,7 @@ public class ClienteRegistro {
 
     //Busca no Banco
 
-    //Altera dado de Cliente
+    //Altera dado de Imovel
 
-    //Remover Cliente
+    //Remover Imovel
 }
