@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class ClienteMenu {
-    ClienteMenu(){
+public class AnotacaoMenu {
+    AnotacaoMenu(){
         ////
     }
     public static void openMenu() {

@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,18 +10,18 @@ public class Main {
             System.out.println("* 3 -> Anotacoes | 4 -> Visitas *");
             System.out.println("* 0 -> Sair                     *");
             System.out.println("*********************************");
-            System.out.println("Digite a  opção desejada: ");
+            System.out.print("Digite a  opção desejada: ");
             int op = sc.nextInt();
-            sc.close();
+            //sc.close();
 
             switch (op) {
                 case 0:
                     sair = true;
                     System.out.println("Saindo!");
-                    ClienteMenu.openMenu();
                     break;
                 case 1:
                     System.out.println("Clinte");
+                    ClienteMenu.openMenu();
                     break;
                 case 2:
                     System.out.println("Imovel");
