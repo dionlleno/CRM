@@ -11,6 +11,8 @@ public class ImovelRegistro {
         //If banco == true -> existe = true
         return existe;
     }
+    
+    //Carregar dados
 
     //Busca no Banco
 

@@ -12,6 +12,8 @@ public class ClienteRegistro {
         return existe;
     }
 
+    //Carregar dados
+
     //Busca no Banco
 
     //Altera dado de Cliente

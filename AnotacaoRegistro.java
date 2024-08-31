@@ -12,6 +12,8 @@ public class AnotacaoRegistro {
         return existe;
     }
 
+    //Carregar dados
+
     //Busca no Banco
 
     //Altera dado da Anotacao
